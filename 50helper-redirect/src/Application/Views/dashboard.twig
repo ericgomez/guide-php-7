@@ -1,0 +1,16 @@
+{% extends 'layout.twig' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            {{ dump(session) }}
+        </div>
+        <form method="POST" action="/logout">
+            <div class="col-md-12">
+                <button type="submit" name="submit" class="btn btn-danger btn-block">Cerrar sesión</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}

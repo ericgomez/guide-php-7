@@ -1,0 +1,14 @@
+{
+    "name": "eric/23dompdf",
+    "description": "Generar archivo PDF con DomPdf",
+    "type": "project",
+    "require": {
+        "dompdf/dompdf": "^0.8.5"
+    },
+    "authors": [
+        {
+            "name": "Eric Gomez",
+            "email": "github@ericgomez.com"
+        }
+    ]
+}
